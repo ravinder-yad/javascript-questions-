@@ -145,3 +145,5 @@ typeof Number("10a") // "number"
 // typeof Symbol() kya return karega?
 
 // JS me datatype checking best practice kya hai?
+
+
