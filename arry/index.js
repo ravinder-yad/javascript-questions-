@@ -11,7 +11,7 @@ console.log(arr);
 
 
 // pop
-arr.pop();
+arr.pop()
 console.log(arr);
 // [10, 20, 30, 40, 50]
 
