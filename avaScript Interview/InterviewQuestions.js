@@ -1,6 +1,8 @@
 // 70 Strong Interview Questions
 
+
 // JavaScript single-threaded kyu hai?
+// => JavaScript ek single-threaded language hai kyunki iska execution model ek hi thread par based hai. Iska matlab hai ki JavaScript code sequentially execute hota hai, aur ek time par sirf ek task perform kar sakta hai. Iska reason ye hai ki JavaScript originally web browsers ke liye design kiya gaya tha, jahan simplicity aur ease of use ko prioritize kiya gaya tha. Single-threaded nature se JavaScript asynchronous programming ko support karta hai, jisse non-blocking operations possible hote hain, jaise ki network requests ya timers, bina main thread ko block kiye.
 
 // Execution context kya hota hai?
 
