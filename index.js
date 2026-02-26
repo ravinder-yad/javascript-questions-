@@ -1,3 +1,4 @@
+// JavaScript Interview Questions & Examples - Last Synced: 2026-02-26
 // What is an object in JavaScript?
 
 // JavaScript me object  ek aisa data type hota hai jo  key–value pairs  ke form me related data ko store karta hai.
