@@ -7,14 +7,21 @@
 // Execution context kya hota hai?
 
 // Call stack ka role?
+// => Call stack ek LIFO (Last-In, First-Out) data structure hai jo JavaScript engine me functions ko track karta hai.
 
 // Hoisting real example?
+// => hoisting me var ko memory me top par le jate hain
+
 
 // Scope chain kya hoti hai?
+// => JavaScript mein jab hum kisi variable ko access karne ki koshish karte hain, toh engine sabse pehle use current scope (jahan wo call hua hai) mein dhundhta hai. Agar wahan nahi milta, toh wo uske outer (parent) scope mein check karta hai. Ye process tab tak chalta hai jab tak variable mil na jaye ya hum Global Scope tak na pahunch jayein. Is sequence of scopes ko hi "Scope Chain" kehte hain.
+// => scope chain ek mechanism hai jo JavaScript engine ko variable ko access karne me help karta hai
 
 // Lexical scope kya hota hai?
+// => lexical scope ek mechanism hai jo JavaScript engine ko variable ko access karne me help karta hai
 
 // Closure kya hota hai?
+// =>
 
 // Closure ka real use case?
 
