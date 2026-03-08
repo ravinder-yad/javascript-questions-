@@ -24,7 +24,7 @@
 // =>ek aisa concept hai jisme function apne outer (parent) function ke variables ko yaad rakhta hai, chahe outer function execute ho kar khatam hi kyu na ho gaya h0
 
 // Closure ka real use case?
-
+// Ek function apne outer function ke variables ko yaad rakhta hai, chahe outer function execute ho chuka ho.
 // Callback function kya hota hai?
 
 // Callback hell kya hai?
