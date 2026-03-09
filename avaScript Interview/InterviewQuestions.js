@@ -26,8 +26,10 @@
 // Closure ka real use case?
 // Ek function apne outer function ke variables ko yaad rakhta hai, chahe outer function execute ho chuka ho.
 // Callback function kya hota hai?
+// => ek function jo dusre function ko argument ke roop me pass kiya jata hai, aur jab dusra function apna kaam complete kar leta hai, tab callback function ko call karta hai. Callback functions asynchronous programming me bahut useful hote hain, jaise ki event handling, timers, ya network requests ke liye.
 
 // Callback hell kya hai?
+// => Callback hell ek situation hai jahan multiple nested callbacks hote hain, jo code ko difficult to read aur maintainable banate hain. Iska solution promises ya async/await ke through kiya ja sakta hai.
 
 // Promise kya hota hai?
 
