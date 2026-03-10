@@ -32,6 +32,7 @@
 // => Callback hell ek situation hai jahan multiple nested callbacks hote hain, jo code ko difficult to read aur maintainable banate hain. Iska solution promises ya async/await ke through kiya ja sakta hai.
 
 // Promise kya hota hai?
+// => Promise ek object hai jo asynchronous operations ke result ko represent karta hai. Ye ek future value ko represent karta hai, jo ya to resolve ho sakta hai (success) ya reject ho sakta hai (error). Promises asynchronous code ko handle karne ke liye ek cleaner aur more manageable way provide karte hain, especially when dealing with multiple asynchronous operations.    
 
 // Promise states kaun si?
 
