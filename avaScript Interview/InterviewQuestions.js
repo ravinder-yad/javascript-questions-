@@ -35,10 +35,13 @@
 // => Promise ek object hai jo asynchronous operations ke result ko represent karta hai. Ye ek future value ko represent karta hai, jo ya to resolve ho sakta hai (success) ya reject ho sakta hai (error). Promises asynchronous code ko handle karne ke liye ek cleaner aur more manageable way provide karte hain, especially when dealing with multiple asynchronous operations.    
 
 // Promise states kaun si?
-
+// => Pending: Jab promise create hota hai, tab wo pending state me hota hai, matlab ki abhi tak resolve ya reject nahi hua hai.
+// => Fulfilled: Jab promise successfully resolve ho jata hai, tab wo fulfilled state me chala jata hai, aur uska result available hota hai.
+// => Rejected: Jab promise kisi error ke wajah se reject ho jata hai, tab wo rejected state me chala jata hai, aur uska reason (error) available hota hai.
 // then aur catch ka role?
 
 // Async/await kya solve karta hai?
+
 
 // async function kya return karta hai?
 
