@@ -41,11 +41,15 @@
 // then aur catch ka role?
 
 // Async/await kya solve karta hai?
+// => Async/await asynchronous code ko likhne ka ek aur tarika hai, jo promises ke upar built hai. Ye code ko synchronous style me likhne ki suvidha deta hai, jisse readability aur maintainability improve hoti hai. Async/await se hum asynchronous operations ko sequentially likh sakte hain, bina nested callbacks ke, aur error handling bhi try/catch blocks ke through kar sakte hain.
+
 
 
 // async function kya return karta hai?
+// => Async function hamesha ek promise return karta hai. Agar function ke andar koi value return ki jati hai, toh wo promise resolve ho jata hai us value ke saath. Agar function ke andar koi error throw ki jati hai, toh wo promise reject ho jata hai us error ke saath. Iska matlab hai ki async functions asynchronous operations ko handle karne ke liye promises ka use karte hain, aur unka behavior promises ke tarah hota hai.
 
 // Error handling async me kaise?
+// => Async functions me error handling ke liye hum try/catch blocks ka use kar sakte hain. Jab hum async function ke andar koi asynchronous operation perform karte hain, toh us operation ko await ke saath likhte hain. Agar wo operation successful hota hai, toh uska result mil jata hai. Lekin agar wo operation fail hota hai, toh wo error throw karta hai, jise hum catch block me handle kar sakte hain. Is tarah se async/await ke saath hum asynchronous code me bhi structured error handling kar sakte hain, jo code ko zyada readable aur maintainable banata hai.
 
 // Event loop kya hota hai?
 
