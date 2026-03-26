@@ -52,9 +52,9 @@
 // => Async functions me error handling ke liye hum try/catch blocks ka use kar sakte hain. Jab hum async function ke andar koi asynchronous operation perform karte hain, toh us operation ko await ke saath likhte hain. Agar wo operation successful hota hai, toh uska result mil jata hai. Lekin agar wo operation fail hota hai, toh wo error throw karta hai, jise hum catch block me handle kar sakte hain. Is tarah se async/await ke saath hum asynchronous code me bhi structured error handling kar sakte hain, jo code ko zyada readable aur maintainable banata hai.
 
 // Event loop kya hota hai?
-
+// => Event loop JavaScript ka ek mechanism hai jo asynchronous operations ko handle karta hai. JavaScript single-threaded language hai, lekin event loop ke through wo asynchronous tasks ko manage kar sakta hai. Jab koi asynchronous operation complete hota hai, toh uska callback function event loop ke queue me add ho jata hai. Event loop continuously check karta hai ki call stack empty hai ya nahi, aur agar call stack empty hota hai, toh wo event loop ke queue se callbacks ko call stack me le jata hai aur execute karta hai. Is tarah se event loop JavaScript ko non-blocking banata hai, jisse asynchronous code efficiently execute hota hai.
 // Microtask queue kya hoti hai?
-
+// => Microtask queue ek special queue hai jo promises ke callbacks (then/catch/finally) aur mutation observers ke callbacks ko store karta hai. Jab koi promise resolve ya reject hota hai, toh uska callback microtask queue me add ho jata hai. Event loop ke cycle me, call stack empty hone ke baad, pehle microtask queue ke callbacks execute hote hain, aur phir macrotask queue ke callbacks execute hote hain. Is tarah se microtask queue asynchronous operations ke result ko handle karne me important role play karta hai, aur promises ke callbacks ko timely execute karta hai.
 // Macrotask queue kya hoti hai?
 
 // setTimeout ka behavior?
